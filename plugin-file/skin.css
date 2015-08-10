@@ -51,3 +51,46 @@
 .jnav_menu_blade.green .jnav-multilevel-nav ul li:first-child {
     border-color: #2ecc71;
 }
+
+/* skyblue skin */
+
+.jnav_menu_blade.skyblue .jnav_wrapper {
+    background: #2980b9;
+}
+.jnav_menu_blade.skyblue .jnav_wrapper li {
+    border-bottom-color: #3498db;
+}
+.jnav_menu_blade.skyblue .jnav_wrapper li a:hover {
+    background-color: #3498db;
+}
+.jnav_menu_blade.skyblue .jnav-toggle {
+    border-color: #3498db;
+}
+.jnav_menu_blade.skyblue .jnav-multilevel-nav ul li:first-child {
+    border-color: #3498db;
+}
+
+/* white skin */
+
+.jnav_menu_blade.white .jnav_wrapper {
+    background: #ffffff;
+}
+.jnav_menu_blade.white .jnav_wrapper li {
+    border-bottom-color: #efefef;
+}
+.jnav_menu_blade.white .jnav_wrapper li a:hover {
+    background-color: #efefef;
+}
+.jnav_menu_blade.white .jnav-toggle {
+    border-color: #efefef;
+    color: #efefef;
+}
+.jnav_menu_blade.white .jnav-multilevel-nav ul li:first-child {
+    border-color: #efefef;
+}
+.jnav_menu_blade.white .jnav_wrapper li a {
+    color: #000;
+}
+.jnav_menu_blade.white .jnav_wrapper li a:hover {
+    background-color: #efefef;
+}
