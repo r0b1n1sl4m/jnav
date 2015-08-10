@@ -67,6 +67,18 @@ Author URI: http://codefairbd.com
                     });
                 }
 
+                // define the correct parent li
+                var ParentUl = $(this).attr("id"),
+                    ParentLi = $("#" + ParentUl + " li ul").parent("li");
+
+                // check if content exists
+                if (ParentLi.length > 0) {
+
+                    // call initial secodary method
+                    navMethod.InitSecondary(ParentLi);
+
+                }
+
             }
 
         });
