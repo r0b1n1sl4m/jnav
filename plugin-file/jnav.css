@@ -24,3 +24,22 @@
     display: block;
     cursor: pointer;
 }
+.jnav-multilevel-nav {
+    position: relative;
+}
+.jnav-toggle {
+    position: absolute;
+    color: #fff;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+    z-index: 9;
+    padding: 10px;
+    border-left: 1px solid #34495e;
+}
+.jnav-multilevel-nav ul {
+    display: none;
+}
+.jnav-multilevel-nav ul li:first-child {
+    border-top: 1px solid #34495e;
+}
