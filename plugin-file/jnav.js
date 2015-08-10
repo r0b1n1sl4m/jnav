@@ -84,6 +84,24 @@ Author URI: http://codefairbd.com
                         var getChild = $(this).parent("li").children("ul");
                         navMethod.ToggleNav(getChild, settings.speed);
 
+                        // get active id of the toggle button
+                        var toggleact = $(this).attr("active");
+
+                        // check active id and get action
+                        if (toggleact === '1') {
+                            // call change symbol
+                            $(this).html(settings.closedSymbol);
+
+                            // change active id
+                            $(this).attr("active", "0");
+                        } else {
+                            // call change symbol
+                            $(this).html(settings.openedSymbol);
+
+                            // change active id
+                            $(this).attr("active", "1");
+                        }
+
                     });
 
                 }
