@@ -1,0 +1,11 @@
+.container {margin: 0 auto;width: 320px;}
+.mobile_menu {
+    width: 320px;
+    margin-bottom: 30px;
+}
+.menu_click {
+    padding: 10px;
+    text-align: right;
+    color: #fff;
+    background-color: #283847;
+}
