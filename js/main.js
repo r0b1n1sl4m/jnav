@@ -7,5 +7,6 @@ $( document ).ready(function() {
 		closedSymbol : "-",
 		openedSymbol : "+",
 		speed : "slow",
+		skin : "green"
 	});
 });
