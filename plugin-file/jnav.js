@@ -77,6 +77,15 @@ Author URI: http://codefairbd.com
                     // call initial secodary method
                     navMethod.InitSecondary(ParentLi);
 
+                    // execute functions on toggle click
+                    $("#" + ParentUl + " .jnav-toggle").click(function () {
+
+                        // toggle secondery ul on click
+                        var getChild = $(this).parent("li").children("ul");
+                        navMethod.ToggleNav(getChild, settings.speed);
+
+                    });
+
                 }
 
             }
