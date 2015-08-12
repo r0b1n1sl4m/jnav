@@ -1,6 +1,6 @@
 # jNav - Responsive jQuery Mobile Navigation &copy;Codefairbd
 jNav is a simply very good solution for your responsive site navigation. It's will help you to add a slick mobile nav on your site.
-[See demo](http://r0b1n1sl4m.github.io/jnav)
+[See demo](http://codefairbd.com/projects/jnav/)
 
 ## Features
 - Multi-level menu support
@@ -11,4 +11,4 @@ jNav is a simply very good solution for your responsive site navigation. It's wi
 - Cross-browser compatibility
 - And much more...
 
-### [Check documentation here.](http://r0b1n1sl4m.github.io/jnav)
+### [Check documentation here.](http://codefairbd.com/projects/jnav/)
