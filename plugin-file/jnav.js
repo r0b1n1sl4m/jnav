@@ -15,6 +15,7 @@ Author URI: http://codefairbd.com
         // extend options with settings array with default values
         var settings = $.extend({
             clickbar: null,
+            defaultOpen: true,
             skin: "default",
             speed: "fast",
             closedSymbol: '&#9660;',
@@ -34,6 +35,9 @@ Author URI: http://codefairbd.com
                     if (ul !== null && ul !== '') {
                         $(ul).wrap("<div class='jnav_menu_blade " + settings.skin + "'></div>");
                         $(ul).addClass("jnav_wrapper");
+                        if(settings.defaultOpen == true) {
+                            $(ul).show();
+                        }
                     }
                     if (bar !== null && bar !== '') {
                         $(bar).addClass("jnav_clickbar");
